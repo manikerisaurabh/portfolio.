@@ -1,13 +1,22 @@
 import React, { useEffect } from 'react'
 import html from '../assets/experience/html.png'
 import css from '../assets/experience/css.png'
+import express from '../assets/experience/express.png'
 import javascript from '../assets/experience/javascript.png'
 import node from '../assets/experience/node.png'
 import flutter from '../assets/experience/flutter.png'
-import firebase from '../assets/experience/firebase.png'
+import dotnet from '../assets/experience/dotnet.png'
 import react from '../assets/experience/react.png'
 import tailwind from '../assets/experience/tailwind.png'
 import python from '../assets/experience/python.png'
+import mongodb from '../assets/experience/mongodb.png'
+import angular from '../assets/experience/angular.png'
+import sql from '../assets/experience/sql.png'
+import github from '../assets/experience/github.png'
+import azur from '../assets/experience/azur.png'
+import typescript from '../assets/experience/typescript.png'
+
+
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
@@ -19,27 +28,64 @@ const Experience = () => {
     const techs = () => [
         {
             id: 1,
-            scr: html,
-            title: 'HTML',
-            style: 'shadow-orange-500'
-        },
-        {
-            id: 2,
-            scr: css,
-            title: 'CSS',
-            style: 'shadow-blue-500'
-        },
-        {
-            id: 3,
-            scr: javascript,
-            title: 'JAVASCRIPT',
-            style: 'shadow-yellow-500'
-        },
-        {
-            id: 4,
             scr: react,
             title: 'REACT',
             style: 'shadow-blue-600'
+        },
+        {
+            id: 2,
+            scr: express,
+            title: 'EXPRESS JS',
+            style: 'shadow-yellow-500'
+        },
+        {
+            id: 30,
+            scr: mongodb,
+            title: 'MONGO DB',
+            style: 'shadow-yellow-500'
+        },
+        {
+            id: 3,
+            scr: angular,
+            title: 'ANGULAR',
+            style: 'shadow-yellow-500'
+        },
+        {
+            id: 8,
+            scr: dotnet,
+            title: 'Dot Net',
+            style: 'shadow-yellow-800'
+        },
+
+        {
+            id: 4,
+            scr: sql,
+            title: 'SQL',
+            style: 'shadow-green-500'
+        },
+        {
+            id: 4,
+            scr: azur,
+            title: 'Azur',
+            style: 'shadow-green-500'
+        },
+        {
+            id: 4,
+            scr: github,
+            title: 'Git Hub',
+            style: 'shadow-green-500'
+        },
+        {
+            id: 4,
+            scr: typescript,
+            title: 'TYPESCRIPT',
+            style: 'shadow-green-500'
+        },
+        {
+            id: 4,
+            scr: node,
+            title: 'Node JS',
+            style: 'shadow-green-500'
         },
         {
             id: 5,
@@ -48,29 +94,11 @@ const Experience = () => {
             style: 'shadow-sky-500'
         },
         {
-            id: 6,
-            scr: node,
-            title: 'Node JS',
-            style: 'shadow-green-500'
-        },
-        {
             id: 7,
             scr: flutter,
             title: 'Flutter',
             style: 'shadow-cyan-800'
         },
-        {
-            id: 8,
-            scr: firebase,
-            title: 'Firebase',
-            style: 'shadow-yellow-800'
-        },
-        {
-            id: 9,
-            scr: python,
-            title: 'Python',
-            style: 'shadow-blue-400'
-        }
     ]
 
     return (
